@@ -14,7 +14,8 @@ Benutze den TLS Provider und erstelle ein selbstsigniertes TLS-Zertifikat für d
 
 Aufgabe 5: Template rendern
 Erstelle eine Konfigurationsdatei `config.json` mit den Key/Value Pairs "user" und "password" durch Rendern eines Templates.
-Hint: Nutze den Template Provider
+Hint: Nutze die template_file Funktion: 
+https://registry.terraform.io/providers/hashicorp/template/latest/docs/data-sources/file
 
 Aufgabe 6: Archive erstellen
 Erstelle ein ZIP-Archiv mit den Dateien im Ordner `data/files`.
