@@ -1,0 +1,4 @@
+RGB Color Scheme:
+- Red:   #mL
+- Green: #oP
+- Blue:  #JU
