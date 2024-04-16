@@ -41,3 +41,6 @@ HINT: Es gibt für Resources ein "count" Attribut
 
 Zusatzaufgabe: Zufällige Farbzuweisung
 Erstelle ein zufälliges Farbschema durch Generierung von drei zufälligen Hexadezimal-Farbwerten (für RGB) und speichere diese in einer lokalen Datei.
+
+Aufgabe160424: Erstelle mit Terraform eine EC2 Instanz in einem (auch mit TF erstellten) VPC mit einem public Subnet. Die EC2 Instanz soll eine public IP-Adresse bekommen und über Terraform so konfiguriert werden, dass der Podfinfo Docker Container (https://github.com/stefanprodan/podinfo) auf der Instanz läuft und die Weboberfläche des Containers über die IP abrufbar ist.
+Nutze dafür die Terraform AWS Module VPC & EC2
